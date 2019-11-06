@@ -53,19 +53,6 @@ public class SignUpClass {
 
         driver.quit();
 
-
-
-    // variable
-
-
-    //method
-
-
-    //locators
-
-        // Signup for Alpha Blog
-
-
     }
 
 }

@@ -18,7 +18,6 @@ public class TitleVerification {
                 "http://practice.cybertekschool.com/dropdown",
                 "http://practice.cybertekschool.com/login");
 
-
 //        3. Open chrome browser
         WebDriver driver = BrowserFactory.getDriver("chrome");
 

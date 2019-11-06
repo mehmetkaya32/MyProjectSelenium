@@ -19,6 +19,10 @@ public class TitleVerification2 {
 
         //            3. Visit all websites one by one.
 
+        //            4. Verify that URL of the website contains the title of the website. Ignore spaces and case
+//    in comparison. For example, title of in the first website title is Lulu and Giorgia and the
+//    URL is https://lulugandgeorgia.com. So, this test case must pass.
+
 
         driver.get(urls.get(0));
         System.out.println(driver.getTitle().contains("Shopping"));
@@ -34,9 +38,7 @@ public class TitleVerification2 {
 
 
 
-//            4. Verify that URL of the website contains the title of the website. Ignore spaces and case
-//    in comparison. For example, title of in the first website title is Lulu and Giorgia and the
-//    URL is https://lulugandgeorgia.com. So, this test case must pass.
+
 
 
 

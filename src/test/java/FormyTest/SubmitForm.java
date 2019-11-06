@@ -46,7 +46,7 @@ public class SubmitForm {
         Assert.assertEquals("yanlissa fail yaptsin. ",firsNameTitleText, "First name");
 
 
-        // sendkey to first name input box
+//       sendkey to first name input box
         WebElement firstNameInputBox= driver.findElement(By.cssSelector("input[id='first-name']"));
         firstNameInputBox.sendKeys(firstName);
 
@@ -98,5 +98,8 @@ public class SubmitForm {
     public void SubmitFormTest4() throws InterruptedException {
         SubmitFormFormWebsite("Samet2","Muhtar3","Doctor55");
     }
+
+
+
 
 }

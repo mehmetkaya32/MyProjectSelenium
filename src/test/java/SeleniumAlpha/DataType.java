@@ -1,4 +1,4 @@
-package JavaEssential;
+package SeleniumAlpha;
 
 import org.junit.Test;
 
