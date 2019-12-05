@@ -1,8 +1,12 @@
+package tests.day5;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.BrowserFactory;
 import utils.BrowserUtils;
+
 public class TestsForNameLocator {
+
     public static void main(String[] args) {
         //remember!
         //for Mac users: you don't need to use WebDriverManager for Safari
@@ -10,7 +14,7 @@ public class TestsForNameLocator {
         WebDriver driver = BrowserFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/sign_up");
-        //if you want to do in one line, without creating webElement reference variable
+        //if you want to do in one line, without creating webelemnt reference variable
         //enter full name
         driver.findElement(By.name("full_name")).sendKeys("Test User");
         //enter email

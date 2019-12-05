@@ -7,11 +7,8 @@ import utils.BrowserFactory;
 import utils.BrowserUtils;
 
 public class TestsForTagNameLocator {
-
     public static void main(String[] args) {
-
-    WebDriver driver = BrowserFactory.getDriver("chrome");
-
+        WebDriver driver = BrowserFactory.getDriver("chrome");
 
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/sign_up");
@@ -25,7 +22,7 @@ public class TestsForTagNameLocator {
         //pause for 3 seconds
         BrowserUtils.wait(3);
 
-        WebElement sub_header = driver.findElement((By.tagName("h3")));
+        WebElement sub_header = driver.findElement(By.tagName("h3"));
 
         System.out.println(sub_header.getText());
 
